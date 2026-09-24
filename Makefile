@@ -25,6 +25,8 @@ $(LIBFT):
 
 %.o: %.c ft_printf.h
 	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+	
+bonus: re
 
 clean:
 	rm -f $(OBJS)
